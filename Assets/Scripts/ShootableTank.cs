@@ -4,10 +4,10 @@ using UnityEngine;
 
 public abstract class ShootableTank : Tank
 {
-    [Header("Стрельба")]
-    [SerializeField] private GameObject _projectile; // снаряд
+    [Header("РЎС‚СЂРµР»СЊР±Р°, СЃРЅР°СЂСЏРґС‹")]
+    [SerializeField] private GameObject _projectile; // пїЅпїЅпїЅпїЅпїЅпїЅ
     [SerializeField] private string _projectileTag;
-    [SerializeField] private Transform _shootPoint; // позиция стрельбы
+    [SerializeField] private Transform _shootPoint; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     [SerializeField] protected float _reloadTime = 0.5f;
     private ObjectPooler _objectPooler;
 
@@ -19,7 +19,7 @@ public abstract class ShootableTank : Tank
     }
 
 
-    protected void Shoot()
+    protected virtual void Shoot()
     {
         _objectPooler.SpawnFromPool(_projectileTag, _shootPoint.position, transform.rotation);
     }

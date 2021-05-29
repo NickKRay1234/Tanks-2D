@@ -8,6 +8,10 @@ public class Player : ShootableTank
 
     private float _timer;
 
+    [Header("Р—РІСѓРєРё")]
+    public AudioSource ShootSound;
+
+
     public override void TakeDamage(int damage)
     {
         _currentHealth -= damage;
@@ -29,7 +33,7 @@ public class Player : ShootableTank
     private void Update()
     {
         Move();
-        SetAngle(Camera.main.ScreenToWorldPoint(Input.mousePosition)); // Танк следит за мышкой
+        SetAngle(Camera.main.ScreenToWorldPoint(Input.mousePosition)); // пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
         if (_timer <= 0)
         {
             if (Input.GetMouseButton(0))
@@ -41,7 +45,13 @@ public class Player : ShootableTank
         else
             _timer -= Time.deltaTime;
     }
-
-
+     
+    
+    protected override void Shoot()
+    {
+       base.Shoot();
+       ShootSound.pitch = Random.Range(0.9f, 1.1f);
+       ShootSound.Play();
+    }
 
 }
