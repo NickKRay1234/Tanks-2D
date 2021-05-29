@@ -3,19 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[RequireComponent(typeof(Rigidbody2D))] // Строка блокирует добавление скрипта в элемент не добавив Rigidbody2D
+[RequireComponent(typeof(Rigidbody2D))] // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ Rigidbody2D
 public abstract class Tank : MonoBehaviour
 {
 
-    [Header("Общие характеристики")]
+    [Header("РћР±С‰РёРµ С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё:")]
     [Range(5, 50)][SerializeField] private int _maxHealth = 30;
     [Range(0f, 5f)][SerializeField] protected float _movementSpeed = 3f;
-    [SerializeField] protected float _angleOffset = 90f; // Поле отвечает за здвиг в угле поворота танка
-    [Tooltip("Скорость поворота")][SerializeField] protected float _rotationSpeed = 7f;
+    [SerializeField] protected float _angleOffset = 90f;
+    [Tooltip("РЎРєРѕСЂРѕСЃС‚СЊ РїРѕРІРѕСЂРѕС‚Р° С‚Р°РЅРєР°:")][SerializeField] protected float _rotationSpeed = 7f;
     [SerializeField] private int _points = 0;
     protected UI _ui;
     protected Rigidbody2D _rigidbody;
     protected int _currentHealth;
+
 
 
 
@@ -42,7 +43,7 @@ public abstract class Tank : MonoBehaviour
     protected abstract void Move();
 
 
-    protected void SetAngle(Vector3 target) // !!!!!!!!!!!!! Разобрать !!!!!!!!!!!!!!!!
+    protected void SetAngle(Vector3 target) // !!!!!!!!!!!!! пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ !!!!!!!!!!!!!!!!
     {
         Vector3 deltaPosition = target - transform.position;
         float angleZ = Mathf.Atan2(deltaPosition.y, deltaPosition.x) * Mathf.Rad2Deg;

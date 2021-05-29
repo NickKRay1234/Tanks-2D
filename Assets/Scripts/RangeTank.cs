@@ -9,7 +9,6 @@ public class RangeTank : ShootableTank
     private Transform _target;
 
 
-
     protected override void Start()
     {
         base.Start();

@@ -149,4 +149,5 @@ MonoBehaviour:
   _angleOffset: 90
   _rotationSpeed: 7
   _points: 20
+  DestroyingSound: {fileID: 6348235032623126783, guid: 411c69085ab77614d89608736978979b, type: 3}
   _damage: 5
