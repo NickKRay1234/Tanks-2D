@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\Tanks\Tank.cs" />
      <Compile Include="Assets\Scripts\Tanks\Projectile.cs" />
      <Compile Include="Assets\Scripts\UI\SettingsMenu.cs" />
+     <Compile Include="Assets\Scripts\Tanks\Boundaries.cs" />
      <None Include="Assets\UI Elements\kenney_topdowntanksredux\Spritesheet\onlyObjects_retina.xml" />
      <None Include="Assets\UI Elements\Spritesheet\greySheet.xml" />
      <None Include="Assets\UI Elements\Spritesheet\redSheet.xml" />
