@@ -52,6 +52,20 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!244 &-2292293681215046085
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 289f9f36db76fa44ab8ef4ba384f47b1
+  m_EffectName: Attenuation
+  m_MixLevel: 6ad1f03e95cde064abd0b186c9bc15a2
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!243 &-1454836263938166691
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -100,13 +114,24 @@ AudioMixerController:
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
-  m_ExposedParameters: []
+  m_ExposedParameters:
+  - guid: 36a8594dfded0ca4bba9fde49a103a56
+    name: MasterVolume
+  - guid: 89c2fbde068451940b708d9cf1ca0d13
+    name: MovingVolume
+  - guid: ae216538f88518944a8e49d7e84a9582
+    name: MusicVolume
+  - guid: 795f5bb4f2c032f418f47513d5ab91c2
+    name: ShootVolume
+  - guid: d9cf6a8d6ef73204da2cdf945a056824
+    name: UI_Volume
   m_AudioMixerGroupViews:
   - guids:
     - b3fb6ebf8585b3f4a9b0a7d0bd32a265
     - c526f2f3adf74344fb672031c89b784f
     - b73a3df3dcdd219418b870cffc20f172
     - f1bdf2701ff4d12479b5437e4336359a
+    - 98f06c82d7a6f0947b388ec047845b68
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -123,6 +148,7 @@ AudioMixerGroupController:
   - {fileID: -1454836263938166691}
   - {fileID: -9121626133732592770}
   - {fileID: -3144505241442890006}
+  - {fileID: 785339530257312451}
   m_Volume: 36a8594dfded0ca4bba9fde49a103a56
   m_Pitch: 4dd32e220a2f8714fb109c2cf8d48ed8
   m_Send: 00000000000000000000000000000000
@@ -157,6 +183,25 @@ AudioMixerSnapshotController:
   m_SnapshotID: 39796cc907f5e0849b7ef132585f3769
   m_FloatValues: {}
   m_TransitionOverrides: {}
+--- !u!243 &785339530257312451
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShootSound
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 98f06c82d7a6f0947b388ec047845b68
+  m_Children: []
+  m_Volume: 795f5bb4f2c032f418f47513d5ab91c2
+  m_Pitch: 9b31b2f498902364e9401b1e635fdb46
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -2292293681215046085}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
 --- !u!244 &1779228694980863207
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
