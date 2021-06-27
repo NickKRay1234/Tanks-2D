@@ -37,21 +37,22 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Tanks\MeleeTank.cs" />
+     <Compile Include="Assets\Scripts\UI\PauseGame.cs" />
      <Compile Include="Assets\Scripts\Spawner\TankSpawner.cs" />
      <Compile Include="Assets\Scripts\Tanks\Player.cs" />
-     <Compile Include="Assets\Scripts\UI\PausePanel.cs" />
      <Compile Include="Assets\Scripts\Tanks\ShootableTank.cs" />
      <Compile Include="Assets\Scripts\ObjectPooler.cs" />
      <Compile Include="Assets\Scripts\Inventory.cs" />
      <Compile Include="Assets\Scripts\UI\Stats.cs" />
+     <Compile Include="Assets\Scripts\Tanks\Boundaries.cs" />
      <Compile Include="Assets\Scripts\Tanks\RangeTank.cs" />
      <Compile Include="Assets\Scripts\UI\MenuManager.cs" />
      <Compile Include="Assets\Scripts\InventoryEditor.cs" />
+     <Compile Include="Assets\Scripts\UI\SettingsMenu.cs" />
      <Compile Include="Assets\Scripts\UI\UI.cs" />
      <Compile Include="Assets\Scripts\Tanks\Tank.cs" />
      <Compile Include="Assets\Scripts\Tanks\Projectile.cs" />
-     <Compile Include="Assets\Scripts\UI\SettingsMenu.cs" />
-     <Compile Include="Assets\Scripts\Tanks\Boundaries.cs" />
+     <Compile Include="Assets\HealthBox.cs" />
      <None Include="Assets\UI Elements\kenney_topdowntanksredux\Spritesheet\onlyObjects_retina.xml" />
      <None Include="Assets\UI Elements\Spritesheet\greySheet.xml" />
      <None Include="Assets\UI Elements\Spritesheet\redSheet.xml" />
