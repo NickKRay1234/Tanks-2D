@@ -50,9 +50,10 @@
      <Compile Include="Assets\Scripts\InventoryEditor.cs" />
      <Compile Include="Assets\Scripts\UI\SettingsMenu.cs" />
      <Compile Include="Assets\Scripts\UI\UI.cs" />
+     <Compile Include="Assets\Scripts\HealthBox.cs" />
      <Compile Include="Assets\Scripts\Tanks\Tank.cs" />
      <Compile Include="Assets\Scripts\Tanks\Projectile.cs" />
-     <Compile Include="Assets\HealthBox.cs" />
+     <Compile Include="Assets\Health_Spawn.cs" />
      <None Include="Assets\UI Elements\kenney_topdowntanksredux\Spritesheet\onlyObjects_retina.xml" />
      <None Include="Assets\UI Elements\Spritesheet\greySheet.xml" />
      <None Include="Assets\UI Elements\Spritesheet\redSheet.xml" />

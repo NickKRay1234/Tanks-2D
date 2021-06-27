@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 2371964118375718306}
   m_Layer: 0
   m_Name: gunTank
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -180,7 +180,6 @@ MonoBehaviour:
   _angleOffset: 90
   _rotationSpeed: 7
   _points: 40
-  DestroyingSound: {fileID: 6348235032623126783, guid: 411c69085ab77614d89608736978979b, type: 3}
   _projectile: {fileID: 7498862330463900419, guid: b4baca0bbe1ef9946835186d46a688bd, type: 3}
   _projectileTag: Red Projectile
   _shootPoint: {fileID: 2737507701294894828}

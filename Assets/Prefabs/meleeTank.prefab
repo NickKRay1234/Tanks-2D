@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1122661059380328699}
   m_Layer: 0
   m_Name: meleeTank
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -149,5 +149,4 @@ MonoBehaviour:
   _angleOffset: 90
   _rotationSpeed: 7
   _points: 20
-  DestroyingSound: {fileID: 6348235032623126783, guid: 411c69085ab77614d89608736978979b, type: 3}
   _damage: 5
