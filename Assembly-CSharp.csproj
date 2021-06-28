@@ -44,7 +44,6 @@
      <Compile Include="Assets\Scripts\ObjectPooler.cs" />
      <Compile Include="Assets\Scripts\Inventory.cs" />
      <Compile Include="Assets\Scripts\UI\Stats.cs" />
-     <Compile Include="Assets\Scripts\Spawner\Health_Spawn.cs" />
      <Compile Include="Assets\Scripts\Tanks\Boundaries.cs" />
      <Compile Include="Assets\Scripts\Tanks\RangeTank.cs" />
      <Compile Include="Assets\Scripts\UI\MenuManager.cs" />
@@ -54,6 +53,7 @@
      <Compile Include="Assets\Scripts\HealthBox.cs" />
      <Compile Include="Assets\Scripts\Tanks\Tank.cs" />
      <Compile Include="Assets\Scripts\Tanks\Projectile.cs" />
+     <Compile Include="Assets\Scripts\Spawner\HealthBoxSpawner.cs" />
      <None Include="Assets\UI Elements\kenney_topdowntanksredux\Spritesheet\onlyObjects_retina.xml" />
      <None Include="Assets\UI Elements\Spritesheet\greySheet.xml" />
      <None Include="Assets\UI Elements\Spritesheet\redSheet.xml" />
