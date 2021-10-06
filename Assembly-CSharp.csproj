@@ -38,7 +38,9 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Tanks\MeleeTank.cs" />
      <Compile Include="Assets\Scripts\UI\PauseGame.cs" />
+     <Compile Include="Assets\Scripts\Spawner\HealthBoxSpawner.cs" />
      <Compile Include="Assets\Scripts\Spawner\TankSpawner.cs" />
+     <Compile Include="Assets\Scripts\New Folder\MenuEnd.cs" />
      <Compile Include="Assets\Scripts\Tanks\Player.cs" />
      <Compile Include="Assets\Scripts\Tanks\ShootableTank.cs" />
      <Compile Include="Assets\Scripts\ObjectPooler.cs" />
@@ -53,8 +55,7 @@
      <Compile Include="Assets\Scripts\HealthBox.cs" />
      <Compile Include="Assets\Scripts\Tanks\Tank.cs" />
      <Compile Include="Assets\Scripts\Tanks\Projectile.cs" />
-     <Compile Include="Assets\Scripts\Spawner\HealthBoxSpawner.cs" />
-     <Compile Include="Assets\Scripts\New Folder\MenuEnd.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <None Include="Assets\UI Elements\kenney_topdowntanksredux\Spritesheet\onlyObjects_retina.xml" />
      <None Include="Assets\UI Elements\Spritesheet\greySheet.xml" />
      <None Include="Assets\UI Elements\Spritesheet\redSheet.xml" />
